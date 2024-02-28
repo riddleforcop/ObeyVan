@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.padd{
+    padding: 0 15%;
+}
+
+.col-st {
+    background-color: black;
+    width: 100%;
+    color: bisque;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.h {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.widhei {
+    width: 200px;
+    height: 200px;
+}
+
+.hei {
+    flex-grow: 1;
+}
+
+.bt {
+    width: 100%;
+    display: flex;
+}
+
+.img-table {
+    width: 200px;
+}
